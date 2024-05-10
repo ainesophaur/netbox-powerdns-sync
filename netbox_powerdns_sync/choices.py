@@ -1,4 +1,4 @@
-from utilities.choices import ChoiceSet
+from netbox.choices import ChoiceSet
 
 
 class NamingIpChoices(ChoiceSet):

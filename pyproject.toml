@@ -13,6 +13,7 @@ include = ["netbox_powerdns_sync/templates/*.html"]
 [tool.poetry.dependencies]
 python = ">=3.10"
 python-powerdns = "^2.1.0"
+django_htmx = ">=1.17"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"

@@ -5,7 +5,7 @@ from django.http import HttpResponseForbidden
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.generic import View
 from core.models import Job
-from utilities.htmx import is_htmx
+from django_htmx import is_htmx
 from utilities.rqworker import get_workers_for_queue
 from utilities.querydict import normalize_querydict
 from utilities.views import ContentTypePermissionRequiredMixin
